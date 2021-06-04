@@ -1,0 +1,17 @@
+1,Core50,Resize,8x8,10,6303,0.024
+2,Core50,Resize,8x8,50,6341,0.061
+3,Core50,Resize,8x8,100,6328,0.065
+4,Core50,Resize,8x8,500,6440,0.099
+5,Core50,Resize,8x8,1000,6578,0.119
+6,Core50,Resize,8x8,5000,7745,0.210
+7,Core50,Resize,8x8,10000,9181,0.321
+8,Core50,Resize,8x8,15000,,
+9,Core50,Resize,8x8,20000,12076,0.453
+10,Core50,Resize,8x8,25000,,
+11,Core50,Resize,8x8,30000,,
+12,Core50,Resize,8x8,35000,,
+13,Core50,Resize,8x8,40000,17908,0.625
+14,Core50,Resize,8x8,45000,,
+15,Core50,Resize,8x8,50000,1236,56329
+16,Core50,Resize,8x8,55000,,
+17,Core50,Resize,8x8,60000,,

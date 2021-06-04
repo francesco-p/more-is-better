@@ -1,0 +1,33 @@
+#!/bin/sh
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 10 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm10
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 50 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm50
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 100 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm100
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 500 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm500
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 1000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm1000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 5000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm5000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 10000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm10000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 15000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm15000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 20000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm20000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 25000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm25000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 30000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm30000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 35000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm35000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 40000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm40000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 45000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm45000
+
+python3 ../../main2.py --dataset CIFAR10 --num_classes_per_task 2 --num_tasks 5 --seed 0 --memory_size 50000 --num_passes 128 --regularization none --width 400 --model ELM_cifar --emb 128 --exp_name ens_elm50000
+
+
